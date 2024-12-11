@@ -1,0 +1,257 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://www.solidbackgrounds.com/images/1080x1920/1080x1920-light-pink-solid-color-background.jpg");
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #F9F6EE;
+  padding: 5px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+ul li a {
+  padding: 4px;
+  text-decoration: none;
+  color: #FAA0A0;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+
+img {
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 30%;
+  width: 30%;
+  display: block;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-size: contain;
+}
+
+.icon-pic {
+    background-image: url("https://cdn-icons-png.freepik.com/256/5066/5066310.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+/* About Section */
+#about {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: #FFB6C1;
+}
+
+.about {
+  display: flex;
+}
+
+.name {
+  padding: 5px;
+}
+
+.name h2 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.name p {
+  font-size: 1rem;
+  margin: 2px;
+  color: black;
+}
+
+/* Favorites Section */
+.favorites {
+    padding: 2px;
+}
+
+.heading {
+    margin: 20px;
+}
+
+.favorites-content {
+    max-width: 500px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: auto;
+}
+
+.favorite-books, .favorite-foods, {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.favorites p {
+  font-size: 20px;
+  margin: 5px;
+  color: black;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-size: contain;
+}
+
+.icon-animal {
+    background-image: url("https://cdn-icons-png.freepik.com/256/11045/11045780.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid")
+}
+
+.icon-music {
+    background-image: url("https://cdn-icons-png.freepik.com/256/4795/4795973.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.icon-book {
+    background-image: url("https://cdn-icons-png.freepik.com/256/8698/8698023.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.icon-food {
+    background-image: url("https://cdn-icons-png.freepik.com/256/7348/7348528.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.icon-hobby {
+    background-image: url("https://cdn-icons-png.freepik.com/256/14950/14950287.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #FFB6C1;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  background-size: contain;
+}
+
+.icon-motivation {
+  background-image: url("https://cdn-icons-png.freepik.com/256/3468/3468331.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.icon-active {
+  background-image: url("https://cdn-icons-png.freepik.com/256/8823/8823358.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.icon-time {
+  background-image: url("https://cdn-icons-png.freepik.com/256/6419/6419729.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.icon-writing {
+  background-image: url("https://cdn-icons-png.freepik.com/256/4815/4815629.png?uid=R176470917&ga=GA1.1.74516393.1728103436&semt=ais_hybrid");
+}
+
+.skill-description {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+p {
+  color: black;
+  font-size: 10px;
+}
+
+/* Contact Section */
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFB6C1;
+}
+
+#contact h1 {
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+#message {
+  margin: 5px;
+  padding: 0px;
+  width: 80%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#submit {
+  padding: 5px;
+  margin: 30px;
+  width: 20%;
+  border-radius: 25px;
+  background-color: #FFB6C1;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+#submit:hover {
+  background-color: green;
+  color: green;
+  cursor: pointer;
+}
+
+h2 {
+  color: black;
+  font-size: 1rem;
+}
+
+a {
+  color: black;
+  padding: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+footer p {
+    color: black;
+}
